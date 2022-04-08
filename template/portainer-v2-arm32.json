@@ -22,7 +22,7 @@
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"description": "Specify a timezone to use for example America/New_York, Europe/Amsterdam"
 				},
 				{
@@ -46,7 +46,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/adguardhome-sync/config",
+					"bind": "home/jcdock/containers/adguardhome-sync/config",
 					"container": "/config"
 				}
 			]
@@ -68,7 +68,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -95,23 +95,23 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Music",
+					"bind": "home/jcdock/containers/Airsonic/Music",
 					"container": "/music"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Airsonic/Playlists",
+					"bind": "home/jcdock/containers/Airsonic/Playlists",
 					"container": "/playlists"
 				},
 				{
-					"bind": "/portainer/Podcasts",
+					"bind": "home/jcdock/containers/Airsonic/Podcasts",
 					"container": "/podcasts"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Airsonic/Media",
+					"bind": "home/jcdock/containers/Airsonic/Media",
 					"container": "/media"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Airsonic/config/",
+					"bind": "home/jcdock/containers/Airsonic/config/",
 					"container": "/config"
 				}
 			],
@@ -163,7 +163,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/archivebox",
+					"bind": "home/jcdock/containers/archivebox",
 					"container": "/data"
 				}
 			]
@@ -177,7 +177,7 @@
 			"description": "An open-source authentication and authorization server providing 2-factor authentication and single sign-on (SSO) for your applications via a web portal.",
 			"env": [
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -195,7 +195,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Authelia",
+					"bind": "home/jcdock/containers/Authelia",
 					"container": "/etc/authelia/"
 				}
 			]
@@ -218,7 +218,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -235,7 +235,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Bazarr",
+					"bind": "home/jcdock/containers/Bazarr",
 					"container": "/config"
 				},
 				{
@@ -278,7 +278,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Beets",
+					"bind": "home/jcdock/containers/Beets",
 					"container": "/config"
 				},
 				{
@@ -335,7 +335,7 @@
 					"container": "/podcast"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Booksonic",
+					"bind": "home/jcdock/containers/Booksonic",
 					"container": "/config"
 				}
 			],
@@ -358,7 +358,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -415,15 +415,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Caddy/Data",
+					"bind": "home/jcdock/containers/Caddy/Data",
 					"container": "/data"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Caddy/Config",
+					"bind": "home/jcdock/containers/Caddy/Config",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Caddy/Caddyfile",
+					"bind": "home/jcdock/containers/Caddy/Caddyfile",
 					"container": "/etc/caddy/Caddyfile"
 				}
 			]
@@ -462,7 +462,7 @@
 					"container": "/books"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Calibre-web",
+					"bind": "home/jcdock/containers/Calibre-web",
 					"container": "/config"
 				}
 			],
@@ -497,7 +497,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Cardigann",
+					"bind": "home/jcdock/containers/Cardigann",
 					"container": "/config"
 				}
 			],
@@ -624,7 +624,7 @@
 					"name": "GUID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -654,7 +654,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Code-Server",
+					"bind": "home/jcdock/containers/Code-Server",
 					"container": "/config"
 				}
 			],
@@ -689,7 +689,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Codiad",
+					"bind": "home/jcdock/containers/Codiad",
 					"container": "/config"
 				}
 			],
@@ -729,7 +729,7 @@
 					"container": "/books"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Cops",
+					"bind": "home/jcdock/containers/Cops",
 					"container": "/config"
 				}
 			],
@@ -765,7 +765,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Couchpotato",
+					"bind": "home/jcdock/containers/Couchpotato",
 					"container": "/config"
 				},
 				{
@@ -808,7 +808,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Daapd",
+					"bind": "home/jcdock/containers/Daapd",
 					"container": "/config"
 				},
 				{
@@ -836,7 +836,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Dashmachine",
+					"bind": "home/jcdock/containers/Dashmachine",
 					"container": "/dashmachine/dashmachine/user_data"
 				}
 			],
@@ -873,7 +873,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Davos",
+					"bind": "home/jcdock/containers/Davos",
 					"container": "/config"
 				},
 				{
@@ -902,7 +902,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/DeeMix",
+					"bind": "home/jcdock/containers/DeeMix",
 					"container": "/config"
 				},
 				{
@@ -946,7 +946,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Deluge",
+					"bind": "home/jcdock/containers/Deluge",
 					"container": "/config"
 				},
 				{
@@ -1018,7 +1018,7 @@
 					"container": "/downloads"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/DelugeOpenVPN/config",
+					"bind": "home/jcdock/containers/DelugeOpenVPN/config",
 					"container": "/config"
 				}
 			],
@@ -1056,7 +1056,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Domoticz",
+					"bind": "home/jcdock/containers/Domoticz",
 					"container": "/config"
 				}
 			],
@@ -1123,7 +1123,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -1188,7 +1188,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -1235,7 +1235,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Duplicati",
+					"bind": "home/jcdock/containers/Duplicati",
 					"container": "/config"
 				},
 				{
@@ -1269,15 +1269,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Mosquitto/config",
+					"bind": "home/jcdock/containers/Mosquitto/config",
 					"container": "/mosquitto/config"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Mosquitto/data",
+					"bind": "home/jcdock/containers/Mosquitto/data",
 					"container": "/mosquitto/data"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Mosquitto/log",
+					"bind": "home/jcdock/containers/Mosquitto/log",
 					"container": "/mosquitto/log"
 				}
 			],
@@ -1302,7 +1302,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -1320,7 +1320,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Emby",
+					"bind": "home/jcdock/containers/Emby",
 					"container": "/config"
 				},
 				{
@@ -1353,7 +1353,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/EmbyStat",
+					"bind": "home/jcdock/containers/EmbyStat",
 					"container": "/config"
 				}
 			]
@@ -1381,11 +1381,11 @@
 					"container": "/srv"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/filebrowser/filebrowser.db",
+					"bind": "home/jcdock/containers/filebrowser/filebrowser.db",
 					"container": "/database/filebrowser.db"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/filebrowser/settings.json",
+					"bind": "home/jcdock/containers/filebrowser/settings.json",
 					"container": "/config/settings.json"
 				}
 			]
@@ -1415,7 +1415,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Flame/data",
+					"bind": "home/jcdock/containers/Flame/data",
 					"container": "/app/data"
 				},
 				{
@@ -1465,7 +1465,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/foundryvtt",
+					"bind": "home/jcdock/containers/foundryvtt",
 					"container": "/data"
 				}
 			],
@@ -1500,7 +1500,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/freshrss",
+					"bind": "home/jcdock/containers/freshrss",
 					"container": "/config"
 				}
 			],
@@ -1537,7 +1537,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Gazee",
+					"bind": "home/jcdock/containers/Gazee",
 					"container": "/config"
 				},
 				{
@@ -1559,7 +1559,7 @@
 			"description": "A simple server for sending and receiving messages",
 			"env": [
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -1587,7 +1587,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/gotify",
+					"bind": "home/jcdock/containers/gotify",
 					"container": "/app/data"
 				}
 			]
@@ -1611,7 +1611,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "Timezone",
 					"name": "TZ"
 				}
@@ -1628,7 +1628,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Grocy",
+					"bind": "home/jcdock/containers/Grocy",
 					"container": "/config"
 				}
 			],
@@ -1653,7 +1653,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Guacamole",
+					"bind": "home/jcdock/containers/Guacamole",
 					"container": "/config"
 				}
 			]
@@ -1687,7 +1687,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Headphones",
+					"bind": "home/jcdock/containers/Headphones",
 					"container": "/config"
 				},
 				{
@@ -1733,7 +1733,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Heimdall",
+					"bind": "home/jcdock/containers/Heimdall",
 					"container": "/config"
 				}
 			],
@@ -1753,7 +1753,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/HomeAssistant/assets",
+					"bind": "home/jcdock/containers/HomeAssistant/assets",
 					"container": "/config"
 				}
 			],
@@ -1786,7 +1786,7 @@
 					"name": "HOMEBRIDGE_CONFIG_UI_PORT"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -1803,7 +1803,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/homebridge",
+					"bind": "home/jcdock/containers/homebridge",
 					"container": "/homebridge"
 				}
 			]
@@ -1835,7 +1835,7 @@
 					"name": "HOMEBRIDGE_CONFIG_UI_PORT"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -1852,7 +1852,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/debian-homebridge",
+					"bind": "home/jcdock/containers/debian-homebridge",
 					"container": "/homebridge"
 				}
 			]
@@ -1888,11 +1888,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Homer/assets",
+					"bind": "home/jcdock/containers/Homer/assets",
 					"container": "/www/assets"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Homer",
+					"bind": "home/jcdock/containers/Homer",
 					"container": "/www/config.yml"
 				}
 			]
@@ -1928,7 +1928,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/HTPCmanager",
+					"bind": "home/jcdock/containers/HTPCmanager",
 					"container": "/config"
 				}
 			],
@@ -1952,7 +1952,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/huginn",
+					"bind": "home/jcdock/containers/huginn",
 					"container": "/var/lib/mysql"
 				}
 			],
@@ -1977,11 +1977,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Influxdb/data",
+					"bind": "home/jcdock/containers/Influxdb/data",
 					"container": "/var/lib/influxdb"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Influxdb/config",
+					"bind": "home/jcdock/containers/Influxdb/config",
 					"container": "/var/lib/influxdb"
 				}
 			],
@@ -2017,7 +2017,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Jackett",
+					"bind": "home/jcdock/containers/Jackett",
 					"container": "/config"
 				},
 				{
@@ -2062,7 +2062,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/JDownloader",
+					"bind": "home/jcdock/containers/JDownloader",
 					"container": "/opt/JDownloader/app/cfg"
 				},
 				{
@@ -2091,7 +2091,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -2109,7 +2109,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Jelllyfin",
+					"bind": "home/jcdock/containers/Jelllyfin",
 					"container": "/config"
 				},
 				{
@@ -2154,7 +2154,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Kodi",
+					"bind": "home/jcdock/containers/Kodi",
 					"container": "/config/.kodi"
 				}
 			],
@@ -2178,11 +2178,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/komga/config",
+					"bind": "home/jcdock/containers/komga/config",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/komga/data",
+					"bind": "home/jcdock/containers/komga/data",
 					"container": "/data"
 				},
 				{
@@ -2299,7 +2299,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/LetsEncrypt",
+					"bind": "home/jcdock/containers/LetsEncrypt",
 					"container": "/config"
 				}
 			],
@@ -2323,7 +2323,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/libreddit",
+					"bind": "home/jcdock/containers/libreddit",
 					"container": "/config"
 				}
 			],
@@ -2359,7 +2359,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/LibreSpeed",
+					"bind": "home/jcdock/containers/LibreSpeed",
 					"container": "/config"
 				}
 			],
@@ -2395,7 +2395,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Lidarr",
+					"bind": "home/jcdock/containers/Lidarr",
 					"container": "/config"
 				},
 				{
@@ -2466,7 +2466,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Lychee",
+					"bind": "home/jcdock/containers/Lychee",
 					"container": "/config"
 				},
 				{
@@ -2496,7 +2496,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -2583,7 +2583,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Mariadb",
+					"bind": "home/jcdock/containers/Mariadb",
 					"container": "/config"
 				}
 			],
@@ -2607,7 +2607,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -2665,7 +2665,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/mealie",
+					"bind": "home/jcdock/containers/mealie",
 					"container": "/app/data"
 				}
 			]
@@ -2700,7 +2700,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Medusa",
+					"bind": "home/jcdock/containers/Medusa",
 					"container": "/config"
 				},
 				{
@@ -2740,7 +2740,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Minecraft-data",
+					"bind": "home/jcdock/containers/Minecraft-data",
 					"container": "/data"
 				}
 			],
@@ -2843,7 +2843,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Mstream",
+					"bind": "home/jcdock/containers/Mstream",
 					"container": "/config"
 				},
 				{
@@ -2872,7 +2872,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -2944,7 +2944,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/MusicBrainz",
+					"bind": "home/jcdock/containers/MusicBrainz",
 					"container": "/config"
 				},
 				{
@@ -2986,7 +2986,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Muximux",
+					"bind": "home/jcdock/containers/Muximux",
 					"container": "/config"
 				}
 			],
@@ -3022,7 +3022,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Mylar",
+					"bind": "home/jcdock/containers/Mylar",
 					"container": "/config"
 				},
 				{
@@ -3072,7 +3072,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/n8n",
+					"bind": "home/jcdock/containers/n8n",
 					"container": "/home/node/.n8n"
 				}
 			]
@@ -3108,11 +3108,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/netdata/netdataconfig",
+					"bind": "home/jcdock/containers/netdata/netdataconfig",
 					"container": "/etc/netdata"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/netdata/netdatalib",
+					"bind": "home/jcdock/containers/netdata/netdatalib",
 					"container": "/var/lib/netdata"
 				},
 				{
@@ -3158,7 +3158,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -3181,7 +3181,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "stack/nextcloud.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/jcdock/pi-hosted"
 			},
 			"title": "Nextcloud",
 			"type": 3
@@ -3220,7 +3220,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/ncdata",
+					"bind": "home/jcdock/containers/ncdata",
 					"container": "/data"
 				}
 			]
@@ -3256,7 +3256,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Nginx",
+					"bind": "home/jcdock/containers/Nginx",
 					"container": "/config"
 				}
 			],
@@ -3280,7 +3280,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -3305,7 +3305,7 @@
 			],
 			"repository": {
 				"stackfile": "stack/nginx-proxy-manager.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/jcdock/pi-hosted"
 			},
 			"restart_policy": "unless-stopped",
 			"title": "Nginx Proxy Manager",
@@ -3326,7 +3326,7 @@
 					"name": "NODE_RED_CREDENTIAL_SECRET"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -3375,7 +3375,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Nzbget",
+					"bind": "home/jcdock/containers/Nzbget",
 					"container": "/config"
 				},
 				{
@@ -3416,7 +3416,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Nzbhydra2",
+					"bind": "home/jcdock/containers/Nzbhydra2",
 					"container": "/config"
 				},
 				{
@@ -3463,7 +3463,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Omada",
+					"bind": "home/jcdock/containers/Omada",
 					"container": "/config"
 				}
 			],
@@ -3501,7 +3501,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Ombi",
+					"bind": "home/jcdock/containers/Ombi",
 					"container": "/config"
 				}
 			],
@@ -3543,7 +3543,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/OpenVPN-AS",
+					"bind": "home/jcdock/containers/OpenVPN-AS",
 					"container": "/config"
 				}
 			],
@@ -3579,7 +3579,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Organizr",
+					"bind": "home/jcdock/containers/Organizr",
 					"container": "/config"
 				}
 			],
@@ -3615,7 +3615,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/OScam",
+					"bind": "home/jcdock/containers/OScam",
 					"container": "/config"
 				}
 			],
@@ -3652,11 +3652,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/paperless/config",
+					"bind": "home/jcdock/containers/paperless/config",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/paperless/data",
+					"bind": "home/jcdock/containers/paperless/data",
 					"container": "/data"
 				}
 			],
@@ -3699,7 +3699,7 @@
 					"container": "/Thumbs"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/PhotoShow",
+					"bind": "home/jcdock/containers/PhotoShow",
 					"container": "/config"
 				}
 			],
@@ -3728,11 +3728,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/PiHole",
+					"bind": "home/jcdock/containers/PiHole",
 					"container": "/etc/pihole"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/PiHole/DNS",
+					"bind": "home/jcdock/containers/PiHole/DNS",
 					"container": "/etc/dnsmasq.d"
 				}
 			]
@@ -3760,11 +3760,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/PiHole_DoH-DoT",
+					"bind": "home/jcdock/containers/PiHole_DoH-DoT",
 					"container": "/etc/pihole"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/PiHole_DoH-DoT/DNS",
+					"bind": "home/jcdock/containers/PiHole_DoH-DoT/DNS",
 					"container": "/etc/dnsmasq.d"
 				}
 			]
@@ -3831,11 +3831,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/PiHole-Unbound",
+					"bind": "home/jcdock/containers/PiHole-Unbound",
 					"container": "/etc/pihole"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/PiHole-Unbound/DNS",
+					"bind": "home/jcdock/containers/PiHole-Unbound/DNS",
 					"container": "/etc/dnsmasq.d"
 				}
 			]
@@ -3869,7 +3869,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/PiWigo",
+					"bind": "home/jcdock/containers/PiWigo",
 					"container": "/config"
 				}
 			],
@@ -3909,7 +3909,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Plex",
+					"bind": "home/jcdock/containers/Plex",
 					"container": "/config"
 				},
 				{
@@ -3960,7 +3960,7 @@
 					"container": "/srv/data"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/PrivateBin",
+					"bind": "home/jcdock/containers/PrivateBin",
 					"container": "/srv/cfg"
 				}
 			],
@@ -4002,7 +4002,7 @@
 					"container": "/data"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/ProjectSend",
+					"bind": "home/jcdock/containers/ProjectSend",
 					"container": "/config"
 				}
 			],
@@ -4038,7 +4038,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Pydio",
+					"bind": "home/jcdock/containers/Pydio",
 					"container": "/config"
 				},
 				{
@@ -4079,7 +4079,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/qBittorrent",
+					"bind": "home/jcdock/containers/qBittorrent",
 					"container": "/config"
 				},
 				{
@@ -4118,7 +4118,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Quassel-core",
+					"bind": "home/jcdock/containers/Quassel-core",
 					"container": "/config"
 				}
 			],
@@ -4154,7 +4154,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Radarr",
+					"bind": "home/jcdock/containers/Radarr",
 					"container": "/config"
 				},
 				{
@@ -4189,7 +4189,7 @@
 			],
 			"repository": {
 				"stackfile": "stack/raspberrypi-monitoring.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/jcdock/pi-hosted"
 			},
 			"restart_policy": "unless-stopped",
 			"title": "Raspberry Pi Docker Monitor",
@@ -4213,7 +4213,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -4230,7 +4230,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/RDesktop/config",
+					"bind": "home/jcdock/containers/RDesktop/config",
 					"container": "/config"
 				}
 			],
@@ -4255,7 +4255,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -4294,7 +4294,7 @@
 			],
 			"repository": {
 				"stackfile": "stack/redmine.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/jcdock/pi-hosted"
 			},
 			"restart_policy": "unless-stopped",
 			"title": "Redmine",
@@ -4333,7 +4333,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Resilio-Sync",
+					"bind": "home/jcdock/containers/Resilio-Sync",
 					"container": "/config"
 				},
 				{
@@ -4363,7 +4363,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -4425,7 +4425,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/ruTorrent/config",
+					"bind": "home/jcdock/containers/ruTorrent/config",
 					"container": "/config"
 				},
 				{
@@ -4433,7 +4433,7 @@
 					"container": "/downloads"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/ruTorrent/passwd",
+					"bind": "home/jcdock/containers/ruTorrent/passwd",
 					"container": "/passwd"
 				}
 			]
@@ -4468,7 +4468,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Sabnzbd",
+					"bind": "home/jcdock/containers/Sabnzbd",
 					"container": "/config"
 				},
 				{
@@ -4576,7 +4576,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/searxng",
+					"bind": "home/jcdock/containers/searxng",
 					"container": "/etc/searxng"
 				}
 			],
@@ -4600,7 +4600,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Shiori",
+					"bind": "home/jcdock/containers/Shiori",
 					"container": "/srv/shiori"
 				}
 			],
@@ -4636,7 +4636,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/SickChill",
+					"bind": "home/jcdock/containers/SickChill",
 					"container": "/config"
 				},
 				{
@@ -4680,7 +4680,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/SickGear",
+					"bind": "home/jcdock/containers/SickGear",
 					"container": "/config"
 				},
 				{
@@ -4723,7 +4723,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Smokeping",
+					"bind": "home/jcdock/containers/Smokeping",
 					"container": "/config"
 				},
 				{
@@ -4752,7 +4752,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Snippet-box",
+					"bind": "home/jcdock/containers/Snippet-box",
 					"container": "/app/data"
 				}
 			]
@@ -4787,7 +4787,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Sonarr",
+					"bind": "home/jcdock/containers/Sonarr",
 					"container": "/config"
 				},
 				{
@@ -4836,7 +4836,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/speedtest-tracker",
+					"bind": "home/jcdock/containers/speedtest-tracker",
 					"container": "/config"
 				}
 			],
@@ -4894,7 +4894,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Syncthing",
+					"bind": "home/jcdock/containers/Syncthing",
 					"container": "/config"
 				},
 				{
@@ -4937,7 +4937,7 @@
 					"container": "/logs"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Tautulli",
+					"bind": "home/jcdock/containers/Tautulli",
 					"container": "/config"
 				}
 			],
@@ -4972,7 +4972,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/TheLounge",
+					"bind": "home/jcdock/containers/TheLounge",
 					"container": "/config"
 				}
 			],
@@ -4996,7 +4996,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/TiddlyWiki",
+					"bind": "home/jcdock/containers/TiddlyWiki",
 					"container": "/var/lib/tiddlywiki"
 				}
 			],
@@ -5024,15 +5024,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/traefik/traefik.yml",
+					"bind": "home/jcdock/containers/traefik/traefik.yml",
 					"container": "/traefik.yml"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/traefik/config.yml",
+					"bind": "home/jcdock/containers/traefik/config.yml",
 					"container": "/config.yml"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/traefik/acme.json",
+					"bind": "home/jcdock/containers/traefik/acme.json",
 					"container": "/acme.json"
 				},
 				{
@@ -5071,7 +5071,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Transmission",
+					"bind": "home/jcdock/containers/Transmission",
 					"container": "/config"
 				},
 				{
@@ -5263,7 +5263,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/TVHeadend",
+					"bind": "home/jcdock/containers/TVHeadend",
 					"container": "/config"
 				},
 				{
@@ -5356,7 +5356,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Unifi",
+					"bind": "home/jcdock/containers/Unifi",
 					"container": "/config"
 				}
 			],
@@ -5409,11 +5409,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/UnifFiVideo/Recordings/",
+					"bind": "home/jcdock/containers/UnifFiVideo/Recordings/",
 					"container": "/recordings"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/UniFiVideo/",
+					"bind": "home/jcdock/containers/UniFiVideo/",
 					"container": "/config"
 				}
 			],
@@ -5433,7 +5433,7 @@
 			],
 			"repository": {
 				"stackfile": "stack/unpoller-stack.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/jcdock/pi-hosted"
 			},
 			"restart_policy": "unless-stopped",
 			"title": "UnPoller Monitor",
@@ -5459,7 +5459,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/uptime-kuma",
+					"bind": "home/jcdock/containers/uptime-kuma",
 					"container": "/app/data"
 				}
 			]
@@ -5484,7 +5484,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Bitwarden",
+					"bind": "home/jcdock/containers/Bitwarden",
 					"container": "/data"
 				}
 			]
@@ -5509,7 +5509,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -5612,7 +5612,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/WebGrabPlus",
+					"bind": "home/jcdock/containers/WebGrabPlus",
 					"container": "/config"
 				},
 				{
@@ -5640,7 +5640,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Whoogle",
+					"bind": "home/jcdock/containers/Whoogle",
 					"container": "/config"
 				}
 			],
@@ -5664,11 +5664,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Wikijs",
+					"bind": "home/jcdock/containers/Wikijs",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Wikijs/data",
+					"bind": "home/jcdock/containers/Wikijs/data",
 					"container": "/data"
 				}
 			],
@@ -5695,7 +5695,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Win2000/zdrive",
+					"bind": "home/jcdock/containers/Win2000/zdrive",
 					"container": "/mnt"
 				}
 			]
@@ -5745,7 +5745,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "stack/wireguard-easy.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/jcdock/pi-hosted"
 			},
 			"title": "Wireguard Server",
 			"type": 3,
@@ -5782,7 +5782,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "stack/wordpress-stack.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/jcdock/pi-hosted"
 			},
 			"title": "Wordpress",
 			"type": 3
@@ -5844,7 +5844,7 @@
 					"description": "If you have changed the default API port don't forget to change it here too."
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -5864,7 +5864,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "stack/your-spotify.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/jcdock/pi-hosted"
 			},
 			"title": "your-spotify",
 			"type": 3
@@ -5887,7 +5887,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/YTDLM",
+					"bind": "home/jcdock/containers/YTDLM",
 					"container": "/app/appdata"
 				},
 				{
@@ -5938,7 +5938,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/ZNC",
+					"bind": "home/jcdock/containers/ZNC",
 					"container": "/config"
 				}
 			],

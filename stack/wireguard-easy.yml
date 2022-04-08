@@ -16,7 +16,7 @@ services:
     image: weejewel/wg-easy
     container_name: wg-easy
     volumes:
-      - /portainer/Files/AppData/Config/wireguard:/etc/wireguard
+      - /home/jcdock/containers/wireguard:/etc/wireguard
     ports:
       - "${WG_PORT}:51820/udp"
       - "51821:51821/tcp"
