@@ -16,8 +16,6 @@ services:
     hostname: rpi-cadvisor
     image: zcube/cadvisor:latest
     ipc: shareable
-    networks:
-      - rpimonitor_default
     privileged: true
     restart: unless-stopped
     security_opt:
@@ -41,8 +39,6 @@ services:
       - GF_PATHS_PROVISIONING=/etc/grafana/provisioning
     hostname: rpi-grafana
     image: grafana/grafana:main
-    networks:
-      - rpimonitor_default
     ports:
       - 3000:3000
     restart: unless-stopped
@@ -58,8 +54,6 @@ services:
       - 9100:9100
     hostname: rpi-exporter
     image: prom/node-exporter:latest
-    networks:
-      - rpimonitor_default
     restart: unless-stopped
 
   prometheus:
@@ -73,8 +67,6 @@ services:
     hostname: rpi-prom
     image: prom/prometheus:latest
     user: root
-    networks:
-      - rpimonitor_default
     restart: unless-stopped
     volumes:
       # to be modified depending on your needs
