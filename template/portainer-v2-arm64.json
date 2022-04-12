@@ -22,8 +22,8 @@
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/New_York",
-					"description": "Specify a timezone to use for example America/New_York, Europe/Amsterdam"
+					"default": "Pacfic/Auckland",
+					"description": "Specify a timezone to use for example Pacfic/Auckland, Europe/Amsterdam"
 				},
 				{
 					"name": "CONFIGFILE",
@@ -46,7 +46,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/adguardhome-sync/config",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/adguardhome-sync/config",
 					"container": "/config"
 				}
 			]
@@ -68,7 +68,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacfic/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -99,7 +99,7 @@
 					"container": "/music"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Airsonic/Playlists",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Airsonic/Playlists",
 					"container": "/playlists"
 				},
 				{
@@ -107,11 +107,11 @@
 					"container": "/podcasts"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Airsonic/Media",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Airsonic/Media",
 					"container": "/media"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Airsonic/config/",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Airsonic/config/",
 					"container": "/config"
 				}
 			],
@@ -134,7 +134,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacfic/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -165,7 +165,7 @@
 					"container": "/music"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Airsonic-Advanced/Playlists",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Airsonic-Advanced/Playlists",
 					"container": "/playlists"
 				},
 				{
@@ -173,11 +173,11 @@
 					"container": "/podcasts"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Airsonic-Advanced/Media",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Airsonic-Advanced/Media",
 					"container": "/media"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Airsonic-Advanced/config/",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Airsonic-Advanced/config/",
 					"container": "/config"
 				}
 			],
@@ -229,7 +229,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/archivebox",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/archivebox",
 					"container": "/data"
 				}
 			]
@@ -243,7 +243,7 @@
 			"description": "An open-source authentication and authorization server providing 2-factor authentication and single sign-on (SSO) for your applications via a web portal.",
 			"env": [
 				{
-					"default": "America/New_York",
+					"default": "Pacfic/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -261,7 +261,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Authelia",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Authelia",
 					"container": "/etc/authelia/"
 				}
 			]
@@ -284,7 +284,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacfic/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -301,7 +301,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Bazarr",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Bazarr",
 					"container": "/config"
 				},
 				{
@@ -344,7 +344,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Beets",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Beets",
 					"container": "/config"
 				},
 				{
@@ -401,7 +401,7 @@
 					"container": "/podcast"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Booksonic",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Booksonic",
 					"container": "/config"
 				}
 			],
@@ -424,7 +424,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacfic/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -454,7 +454,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "stack/bookstack.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/jcdock/pi-hosted"
 			},
 			"title": "Bookstack",
 			"type": 3
@@ -481,15 +481,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Caddy/Data",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Caddy/Data",
 					"container": "/data"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Caddy/Config",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Caddy/Config",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Caddy/Caddyfile",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Caddy/Caddyfile",
 					"container": "/etc/caddy/Caddyfile"
 				}
 			]
@@ -528,7 +528,7 @@
 					"container": "/books"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Calibre-web",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Calibre-web",
 					"container": "/config"
 				}
 			],
@@ -563,7 +563,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Cardigann",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Cardigann",
 					"container": "/config"
 				}
 			],
@@ -690,7 +690,7 @@
 					"name": "GUID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacfic/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -720,7 +720,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Code-Server",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Code-Server",
 					"container": "/config"
 				}
 			],
@@ -755,7 +755,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Codiad",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Codiad",
 					"container": "/config"
 				}
 			],
@@ -795,7 +795,7 @@
 					"container": "/books"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Cops",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Cops",
 					"container": "/config"
 				}
 			],
@@ -831,7 +831,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Couchpotato",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Couchpotato",
 					"container": "/config"
 				},
 				{
@@ -874,7 +874,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Daapd",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Daapd",
 					"container": "/config"
 				},
 				{
@@ -902,7 +902,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Dashmachine",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Dashmachine",
 					"container": "/dashmachine/dashmachine/user_data"
 				}
 			],
@@ -939,7 +939,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Davos",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Davos",
 					"container": "/config"
 				},
 				{
@@ -968,7 +968,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/DeeMix",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/DeeMix",
 					"container": "/config"
 				},
 				{
@@ -1012,7 +1012,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Deluge",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Deluge",
 					"container": "/config"
 				},
 				{
@@ -1084,7 +1084,7 @@
 					"container": "/downloads"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/DelugeOpenVPN/config",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/DelugeOpenVPN/config",
 					"container": "/config"
 				}
 			],
@@ -1122,7 +1122,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Domoticz",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Domoticz",
 					"container": "/config"
 				}
 			],
@@ -1189,7 +1189,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacfic/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -1254,7 +1254,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacfic/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -1301,7 +1301,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Duplicati",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Duplicati",
 					"container": "/config"
 				},
 				{
@@ -1321,7 +1321,7 @@
 				"Other",
 				"Tools"
 			],
-			"description": "Eclipse Mosquitto is an open source implementation of a server for versions 5, 3.1.1, and 3.1 of the MQTT protocol.\r\nYou will need to create /portainer/Files/AppData/Config/Mosquitto/config/mosquitto.conf and if needed your password file.\r\nHave a look on https://mosquitto.org/man/mosquitto_passwd-1.html",
+			"description": "Eclipse Mosquitto is an open source implementation of a server for versions 5, 3.1.1, and 3.1 of the MQTT protocol.\r\nYou will need to create /srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Mosquitto/config/mosquitto.conf and if needed your password file.\r\nHave a look on https://mosquitto.org/man/mosquitto_passwd-1.html",
 			"hostname": "rpi-mosquitto",
 			"image": "eclipse-mosquitto:latest",
 			"logo": "https://raw.githubusercontent.com/docker-library/docs/757578e3a44e5460a8a11d32a81776f8b74231a9/eclipse-mosquitto/logo.png",
@@ -1335,15 +1335,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Mosquitto/config",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Mosquitto/config",
 					"container": "/mosquitto/config"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Mosquitto/data",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Mosquitto/data",
 					"container": "/mosquitto/data"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Mosquitto/log",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Mosquitto/log",
 					"container": "/mosquitto/log"
 				}
 			],
@@ -1368,7 +1368,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacfic/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -1386,7 +1386,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Emby",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Emby",
 					"container": "/config"
 				},
 				{
@@ -1419,7 +1419,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/EmbyStat",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/EmbyStat",
 					"container": "/config"
 				}
 			]
@@ -1447,11 +1447,11 @@
 					"container": "/srv"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/filebrowser/filebrowser.db",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/filebrowser/filebrowser.db",
 					"container": "/database/filebrowser.db"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/filebrowser/settings.json",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/filebrowser/settings.json",
 					"container": "/config/settings.json"
 				}
 			]
@@ -1481,7 +1481,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Flame/data",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Flame/data",
 					"container": "/app/data"
 				},
 				{
@@ -1531,7 +1531,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/foundryvtt",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/foundryvtt",
 					"container": "/data"
 				}
 			],
@@ -1566,7 +1566,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/freshrss",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/freshrss",
 					"container": "/config"
 				}
 			],
@@ -1603,7 +1603,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Gazee",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Gazee",
 					"container": "/config"
 				},
 				{
@@ -1649,7 +1649,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Gitea",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Gitea",
 					"container": "/data"
 				},
 				{
@@ -1680,7 +1680,7 @@
 					"name": "USER_GID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacfic/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -1725,7 +1725,7 @@
 			"description": "A simple server for sending and receiving messages",
 			"env": [
 				{
-					"default": "America/New_York",
+					"default": "Pacfic/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -1753,7 +1753,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/gotify",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/gotify",
 					"container": "/app/data"
 				}
 			]
@@ -1777,7 +1777,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacfic/Auckland",
 					"label": "Timezone",
 					"name": "TZ"
 				}
@@ -1794,7 +1794,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Grocy",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Grocy",
 					"container": "/config"
 				}
 			],
@@ -1819,7 +1819,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Guacamole",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Guacamole",
 					"container": "/config"
 				}
 			]
@@ -1853,7 +1853,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Headphones",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Headphones",
 					"container": "/config"
 				},
 				{
@@ -1899,7 +1899,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Heimdall",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Heimdall",
 					"container": "/config"
 				}
 			],
@@ -1919,7 +1919,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/HomeAssistant/assets",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/HomeAssistant/assets",
 					"container": "/config"
 				}
 			],
@@ -1952,7 +1952,7 @@
 					"name": "HOMEBRIDGE_CONFIG_UI_PORT"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacfic/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -1969,7 +1969,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/homebridge",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/homebridge",
 					"container": "/homebridge"
 				}
 			]
@@ -2001,7 +2001,7 @@
 					"name": "HOMEBRIDGE_CONFIG_UI_PORT"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacfic/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -2018,7 +2018,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/debian-homebridge",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/debian-homebridge",
 					"container": "/homebridge"
 				}
 			]
@@ -2054,11 +2054,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Homer/assets",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Homer/assets",
 					"container": "/www/assets"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Homer",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Homer",
 					"container": "/www/config.yml"
 				}
 			]
@@ -2094,7 +2094,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/HTPCmanager",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/HTPCmanager",
 					"container": "/config"
 				}
 			],
@@ -2118,7 +2118,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/huginn",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/huginn",
 					"container": "/var/lib/mysql"
 				}
 			],
@@ -2129,7 +2129,7 @@
 				"Other",
 				"Tools"
 			],
-			"description": "InfluxDB is an open source time series database for recording metrics, events, and analytics. You will need to add /portainer/Files/AppData/Config/Influxdb/config/influxdb.conf",
+			"description": "InfluxDB is an open source time series database for recording metrics, events, and analytics. You will need to add /srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Influxdb/config/influxdb.conf",
 			"hostname": "rpi-influxdb1810",
 			"image": "influxdb:1.8.10",
 			"logo": "https://raw.githubusercontent.com/docker-library/docs/43d87118415bb75d7bb107683e79cd6d69186f67/influxdb/logo.png",
@@ -2143,11 +2143,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Influxdb/data",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Influxdb/data",
 					"container": "/var/lib/influxdb"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Influxdb/config",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Influxdb/config",
 					"container": "/var/lib/influxdb"
 				}
 			],
@@ -2183,7 +2183,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Jackett",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Jackett",
 					"container": "/config"
 				},
 				{
@@ -2228,7 +2228,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/JDownloader",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/JDownloader",
 					"container": "/opt/JDownloader/app/cfg"
 				},
 				{
@@ -2257,7 +2257,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacfic/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -2275,7 +2275,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Jelllyfin",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Jelllyfin",
 					"container": "/config"
 				},
 				{
@@ -2320,7 +2320,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Kodi",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Kodi",
 					"container": "/config/.kodi"
 				}
 			],
@@ -2344,11 +2344,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/komga/config",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/komga/config",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/komga/data",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/komga/data",
 					"container": "/data"
 				},
 				{
@@ -2465,7 +2465,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/LetsEncrypt",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/LetsEncrypt",
 					"container": "/config"
 				}
 			],
@@ -2489,7 +2489,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/libreddit",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/libreddit",
 					"container": "/config"
 				}
 			],
@@ -2525,7 +2525,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/LibreSpeed",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/LibreSpeed",
 					"container": "/config"
 				}
 			],
@@ -2561,7 +2561,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Lidarr",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Lidarr",
 					"container": "/config"
 				},
 				{
@@ -2672,7 +2672,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Lychee",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Lychee",
 					"container": "/config"
 				},
 				{
@@ -2702,7 +2702,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacfic/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -2789,7 +2789,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Mariadb",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Mariadb",
 					"container": "/config"
 				}
 			],
@@ -2813,7 +2813,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacfic/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -2871,7 +2871,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/mealie",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/mealie",
 					"container": "/app/data"
 				}
 			]
@@ -2906,7 +2906,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Medusa",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Medusa",
 					"container": "/config"
 				},
 				{
@@ -2946,7 +2946,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Minecraft-data",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Minecraft-data",
 					"container": "/data"
 				}
 			],
@@ -3049,7 +3049,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Mstream",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Mstream",
 					"container": "/config"
 				},
 				{
@@ -3078,7 +3078,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacfic/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -3150,7 +3150,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/MusicBrainz",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/MusicBrainz",
 					"container": "/config"
 				},
 				{
@@ -3192,7 +3192,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Muximux",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Muximux",
 					"container": "/config"
 				}
 			],
@@ -3228,7 +3228,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Mylar",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Mylar",
 					"container": "/config"
 				},
 				{
@@ -3278,7 +3278,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/n8n",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/n8n",
 					"container": "/home/node/.n8n"
 				}
 			]
@@ -3314,11 +3314,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/netdata/netdataconfig",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/netdata/netdataconfig",
 					"container": "/etc/netdata"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/netdata/netdatalib",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/netdata/netdatalib",
 					"container": "/var/lib/netdata"
 				},
 				{
@@ -3364,7 +3364,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacfic/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -3387,7 +3387,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "stack/nextcloud.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/jcdock/pi-hosted"
 			},
 			"title": "Nextcloud",
 			"type": 3
@@ -3426,7 +3426,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/ncdata",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/ncdata",
 					"container": "/data"
 				}
 			]
@@ -3462,7 +3462,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Nginx",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Nginx",
 					"container": "/config"
 				}
 			],
@@ -3486,7 +3486,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacfic/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -3511,7 +3511,7 @@
 			],
 			"repository": {
 				"stackfile": "stack/nginx-proxy-manager.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/jcdock/pi-hosted"
 			},
 			"restart_policy": "unless-stopped",
 			"title": "Nginx Proxy Manager",
@@ -3532,7 +3532,7 @@
 					"name": "NODE_RED_CREDENTIAL_SECRET"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacfic/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -3581,7 +3581,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Nzbget",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Nzbget",
 					"container": "/config"
 				},
 				{
@@ -3622,7 +3622,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Nzbhydra2",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Nzbhydra2",
 					"container": "/config"
 				},
 				{
@@ -3669,7 +3669,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Omada",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Omada",
 					"container": "/config"
 				}
 			],
@@ -3707,7 +3707,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Ombi",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Ombi",
 					"container": "/config"
 				}
 			],
@@ -3749,7 +3749,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/OpenVPN-AS",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/OpenVPN-AS",
 					"container": "/config"
 				}
 			],
@@ -3785,7 +3785,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Organizr",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Organizr",
 					"container": "/config"
 				}
 			],
@@ -3821,7 +3821,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/OScam",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/OScam",
 					"container": "/config"
 				}
 			],
@@ -3858,11 +3858,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/paperless/config",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/paperless/config",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/paperless/data",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/paperless/data",
 					"container": "/data"
 				}
 			],
@@ -3951,7 +3951,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "stack/photoprism.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/jcdock/pi-hosted"
 			},
 			"title": "PhotoPrism",
 			"type": 3
@@ -3993,7 +3993,7 @@
 					"container": "/Thumbs"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/PhotoShow",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/PhotoShow",
 					"container": "/config"
 				}
 			],
@@ -4022,11 +4022,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/PiHole",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/PiHole",
 					"container": "/etc/pihole"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/PiHole/DNS",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/PiHole/DNS",
 					"container": "/etc/dnsmasq.d"
 				}
 			]
@@ -4054,11 +4054,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/PiHole_DoH-DoT",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/PiHole_DoH-DoT",
 					"container": "/etc/pihole"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/PiHole_DoH-DoT/DNS",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/PiHole_DoH-DoT/DNS",
 					"container": "/etc/dnsmasq.d"
 				}
 			]
@@ -4125,11 +4125,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/PiHole-Unbound",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/PiHole-Unbound",
 					"container": "/etc/pihole"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/PiHole-Unbound/DNS",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/PiHole-Unbound/DNS",
 					"container": "/etc/dnsmasq.d"
 				}
 			]
@@ -4163,7 +4163,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/PiWigo",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/PiWigo",
 					"container": "/config"
 				}
 			],
@@ -4203,7 +4203,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Plex",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Plex",
 					"container": "/config"
 				},
 				{
@@ -4252,7 +4252,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "stack/pritunl.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/jcdock/pi-hosted"
 			},
 			"title": "Pritunl",
 			"type": 3
@@ -4294,7 +4294,7 @@
 					"container": "/srv/data"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/PrivateBin",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/PrivateBin",
 					"container": "/srv/cfg"
 				}
 			],
@@ -4336,7 +4336,7 @@
 					"container": "/data"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/ProjectSend",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/ProjectSend",
 					"container": "/config"
 				}
 			],
@@ -4399,7 +4399,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Pydio",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Pydio",
 					"container": "/config"
 				},
 				{
@@ -4440,7 +4440,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/qBittorrent",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/qBittorrent",
 					"container": "/config"
 				},
 				{
@@ -4479,7 +4479,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Quassel-core",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Quassel-core",
 					"container": "/config"
 				}
 			],
@@ -4515,7 +4515,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Radarr",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Radarr",
 					"container": "/config"
 				},
 				{
@@ -4550,7 +4550,7 @@
 			],
 			"repository": {
 				"stackfile": "stack/raspberrypi-monitoring.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/jcdock/pi-hosted"
 			},
 			"restart_policy": "unless-stopped",
 			"title": "Raspberry Pi Docker Monitor",
@@ -4574,7 +4574,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacfic/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -4591,7 +4591,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/RDesktop/config",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/RDesktop/config",
 					"container": "/config"
 				}
 			],
@@ -4615,7 +4615,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/ReactiveResume",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/ReactiveResume",
 					"container": "/keepoutoftheway/var/www/html"
 				}
 			],
@@ -4640,7 +4640,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacfic/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -4679,7 +4679,7 @@
 			],
 			"repository": {
 				"stackfile": "stack/redmine.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/jcdock/pi-hosted"
 			},
 			"restart_policy": "unless-stopped",
 			"title": "Redmine",
@@ -4718,7 +4718,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Resilio-Sync",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Resilio-Sync",
 					"container": "/config"
 				},
 				{
@@ -4748,7 +4748,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacfic/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -4810,7 +4810,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/ruTorrent/config",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/ruTorrent/config",
 					"container": "/config"
 				},
 				{
@@ -4818,7 +4818,7 @@
 					"container": "/downloads"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/ruTorrent/passwd",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/ruTorrent/passwd",
 					"container": "/passwd"
 				}
 			]
@@ -4853,7 +4853,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Sabnzbd",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Sabnzbd",
 					"container": "/config"
 				},
 				{
@@ -4961,7 +4961,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/searxng",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/searxng",
 					"container": "/etc/searxng"
 				}
 			],
@@ -4985,7 +4985,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Shiori",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Shiori",
 					"container": "/srv/shiori"
 				}
 			],
@@ -5021,7 +5021,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/SickChill",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/SickChill",
 					"container": "/config"
 				},
 				{
@@ -5065,7 +5065,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/SickGear",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/SickGear",
 					"container": "/config"
 				},
 				{
@@ -5108,7 +5108,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Smokeping",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Smokeping",
 					"container": "/config"
 				},
 				{
@@ -5137,7 +5137,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Snippet-box",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Snippet-box",
 					"container": "/app/data"
 				}
 			]
@@ -5172,7 +5172,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Sonarr",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Sonarr",
 					"container": "/config"
 				},
 				{
@@ -5221,7 +5221,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/speedtest-tracker",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/speedtest-tracker",
 					"container": "/config"
 				}
 			],
@@ -5279,7 +5279,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Syncthing",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Syncthing",
 					"container": "/config"
 				},
 				{
@@ -5322,7 +5322,7 @@
 					"container": "/logs"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Tautulli",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Tautulli",
 					"container": "/config"
 				}
 			],
@@ -5357,7 +5357,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/TheLounge",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/TheLounge",
 					"container": "/config"
 				}
 			],
@@ -5381,7 +5381,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/TiddlyWiki",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/TiddlyWiki",
 					"container": "/var/lib/tiddlywiki"
 				}
 			],
@@ -5409,15 +5409,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/traefik/traefik.yml",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/traefik/traefik.yml",
 					"container": "/traefik.yml"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/traefik/config.yml",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/traefik/config.yml",
 					"container": "/config.yml"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/traefik/acme.json",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/traefik/acme.json",
 					"container": "/acme.json"
 				},
 				{
@@ -5456,7 +5456,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Transmission",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Transmission",
 					"container": "/config"
 				},
 				{
@@ -5648,7 +5648,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/TVHeadend",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/TVHeadend",
 					"container": "/config"
 				},
 				{
@@ -5741,7 +5741,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Unifi",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Unifi",
 					"container": "/config"
 				}
 			],
@@ -5794,11 +5794,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/UnifFiVideo/Recordings/",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/UnifFiVideo/Recordings/",
 					"container": "/recordings"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/UniFiVideo/",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/UniFiVideo/",
 					"container": "/config"
 				}
 			],
@@ -5818,7 +5818,7 @@
 			],
 			"repository": {
 				"stackfile": "stack/unpoller-stack.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/jcdock/pi-hosted"
 			},
 			"restart_policy": "unless-stopped",
 			"title": "UnPoller Monitor",
@@ -5844,7 +5844,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/uptime-kuma",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/uptime-kuma",
 					"container": "/app/data"
 				}
 			]
@@ -5869,7 +5869,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Bitwarden",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Bitwarden",
 					"container": "/data"
 				}
 			]
@@ -5894,7 +5894,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacfic/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -5997,7 +5997,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/WebGrabPlus",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/WebGrabPlus",
 					"container": "/config"
 				},
 				{
@@ -6025,7 +6025,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Whoogle",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Whoogle",
 					"container": "/config"
 				}
 			],
@@ -6049,11 +6049,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Wikijs",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Wikijs",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/Wikijs/data",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Wikijs/data",
 					"container": "/data"
 				}
 			],
@@ -6080,7 +6080,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Win2000/zdrive",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Win2000/zdrive",
 					"container": "/mnt"
 				}
 			]
@@ -6131,7 +6131,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "stack/wireguard-easy.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/jcdock/pi-hosted"
 			},
 			"title": "Wireguard Server",
 			"type": 3,
@@ -6168,7 +6168,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "stack/wordpress-stack.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/jcdock/pi-hosted"
 			},
 			"title": "Wordpress",
 			"type": 3
@@ -6230,7 +6230,7 @@
 					"description": "If you have changed the default API port don't forget to change it here too."
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacfic/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -6250,7 +6250,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "stack/your-spotify.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/jcdock/pi-hosted"
 			},
 			"title": "your-spotify",
 			"type": 3
@@ -6273,7 +6273,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/YTDLM",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/YTDLM",
 					"container": "/app/appdata"
 				},
 				{
@@ -6324,7 +6324,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/ZNC",
+					"bind": "/srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/ZNC",
 					"container": "/config"
 				}
 			],
