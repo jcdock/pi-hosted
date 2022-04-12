@@ -1,4 +1,4 @@
-version: "2.4"
+version: "3"
 services:
   cadvisor:
     command:
@@ -11,8 +11,8 @@ services:
     container_name: monitoring-cadvisor
     devices:
       - /dev/kmsg:/dev/kmsg
-    expose:
-      - 8080
+    ports:
+      - 8080:8080
     hostname: rpi-cadvisor
     image: zcube/cadvisor:latest
     ipc: shareable
@@ -48,14 +48,14 @@ services:
     restart: unless-stopped
     volumes:
       # to be modified depending on your needs
-      - /portainer/Files/AppData/Config/grafana/data:/var/lib/grafana
-      - /portainer/Files/AppData/Config/grafana/grafana.ini:/etc/grafana/grafana.ini
-      - /portainer/Files/AppData/Config/grafana/provisioning:/etc/grafana/provisioning
+      - /srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/grafana/data:/var/lib/grafana
+      - /srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/grafana/grafana.ini:/etc/grafana/grafana.ini
+      - /srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/grafana/provisioning:/etc/grafana/provisioning
 
   node-exporter:
     container_name: monitoring-node-exporter
-    expose:
-      - 9100
+    ports:
+      - 9100:9100
     hostname: rpi-exporter
     image: prom/node-exporter:latest
     networks:
@@ -68,8 +68,8 @@ services:
       - '--storage.tsdb.path=/prometheus'
       - '--storage.tsdb.retention.time=${PROMETHEUS_RETENTION:-15d}'
     container_name: monitoring-prometheus
-    expose:
-      - 9090
+    ports:
+      - 9090:9090
     hostname: rpi-prom
     image: prom/prometheus:latest
     user: root
@@ -78,11 +78,13 @@ services:
     restart: unless-stopped
     volumes:
       # to be modified depending on your needs
-      - /portainer/Files/AppData/Config/prometheus/data:/prometheus
-      - /portainer/Files/AppData/Config/prometheus/config:/etc/prometheus/
+      - /srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/prometheus/data:/prometheus
+      - /srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/prometheus/config:/etc/prometheus/
     links:
       - cadvisor:cadvisor
       - node-exporter:node-exporter
 
 networks:
-  rpimonitor_default:
+  default:
+    external:
+      name: web
