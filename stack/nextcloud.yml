@@ -1,5 +1,5 @@
 ---
-version: "2"
+version: "3"
 services:
   nextcloud:
     image: linuxserver/nextcloud:latest
@@ -29,3 +29,7 @@ services:
     volumes:
       - /srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/Nextcloud/DB:/config
     restart: unless-stopped
+networks:
+  default:
+    external:
+      name: web
