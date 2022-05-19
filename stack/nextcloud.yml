@@ -9,7 +9,7 @@ services:
       - PGID=${PGID}
       - TZ=${TZ}
     volumes:
-      - /portainer/Files/AppData/Config/Nextcloud/Config:/config
+      - /home/jcdock/containers/Nextcloud/Config:/config
     ports:
       - ${PORT}:443
     restart: unless-stopped
@@ -27,5 +27,5 @@ services:
       - MYSQL_USER=nextcloud
       - MYSQL_PASSWORD=${DATABASE_PASSWORD}
     volumes:
-      - /portainer/Files/AppData/Config/Nextcloud/DB:/config
+      - /home/jcdock/containers/Nextcloud/DB:/config
     restart: unless-stopped

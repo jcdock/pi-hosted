@@ -44,9 +44,9 @@ services:
     restart: unless-stopped
     volumes:
       # to be modified depending on your needs
-      - /srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/grafana/data:/var/lib/grafana
-      - /srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/grafana/grafana.ini:/etc/grafana/grafana.ini
-      - /srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/grafana/provisioning:/etc/grafana/provisioning
+      - /home/jcdock/containers/grafana/data:/var/lib/grafana
+      - /home/jcdock/containers/grafana/grafana.ini:/etc/grafana/grafana.ini
+      - /home/jcdock/containers/grafana/provisioning:/etc/grafana/provisioning
 
   node-exporter:
     container_name: monitoring-node-exporter
@@ -70,8 +70,8 @@ services:
     restart: unless-stopped
     volumes:
       # to be modified depending on your needs
-      - /srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/prometheus/data:/prometheus
-      - /srv/dev-disk-by-uuid-617daa2d-7799-4e67-be38-d6c83cd01e14/containers/prometheus/config:/etc/prometheus/
+      - /home/jcdock/containers/prometheus/data:/prometheus
+      - /home/jcdock/containers/prometheus/config:/etc/prometheus/
     links:
       - cadvisor:cadvisor
       - node-exporter:node-exporter
