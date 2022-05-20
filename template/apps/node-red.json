@@ -12,7 +12,7 @@
 			"name": "NODE_RED_CREDENTIAL_SECRET"
 		},
 		{
-			"default": "America/New_York",
+			"default": "Pacific/Auckland",
 			"label": "TZ",
 			"name": "TZ"
 		}

@@ -7,7 +7,7 @@
 	"description": "An open-source authentication and authorization server providing 2-factor authentication and single sign-on (SSO) for your applications via a web portal.",
 	"env": [
 		{
-			"default": "America/New_York",
+			"default": "Pacific/Auckland",
 			"label": "TZ",
 			"name": "TZ"
 		}

@@ -19,8 +19,8 @@
   	{
   		"name": "TZ",
   		"label": "TZ",
-  		"default": "America/New_York",
-  		"description": "Specify a timezone to use for example America/New_York, Europe/Amsterdam"
+  		"default": "Pacific/Auckland",
+  		"description": "Specify a timezone to use for example Pacific/Auckland, Europe/Amsterdam"
   	},
   	{
   		"name": "CONFIGFILE",

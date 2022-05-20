@@ -22,8 +22,8 @@
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/New_York",
-					"description": "Specify a timezone to use for example America/New_York, Europe/Amsterdam"
+					"default": "Pacific/Auckland",
+					"description": "Specify a timezone to use for example Pacific/Auckland, Europe/Amsterdam"
 				},
 				{
 					"name": "CONFIGFILE",
@@ -68,7 +68,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -177,7 +177,7 @@
 			"description": "An open-source authentication and authorization server providing 2-factor authentication and single sign-on (SSO) for your applications via a web portal.",
 			"env": [
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -218,7 +218,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -358,7 +358,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -624,7 +624,7 @@
 					"name": "GUID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -1123,7 +1123,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -1188,7 +1188,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -1302,7 +1302,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -1559,7 +1559,7 @@
 			"description": "A simple server for sending and receiving messages",
 			"env": [
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -1611,7 +1611,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "Timezone",
 					"name": "TZ"
 				}
@@ -1786,7 +1786,7 @@
 					"name": "HOMEBRIDGE_CONFIG_UI_PORT"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -1835,7 +1835,7 @@
 					"name": "HOMEBRIDGE_CONFIG_UI_PORT"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -2091,7 +2091,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -2496,7 +2496,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -2607,7 +2607,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -2872,7 +2872,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -3158,7 +3158,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -3280,7 +3280,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -3326,7 +3326,7 @@
 					"name": "NODE_RED_CREDENTIAL_SECRET"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -3783,7 +3783,7 @@
 					"name": "ServerIP"
 				},
 				{
-					"default": "Europe\\London",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -4213,7 +4213,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -4255,7 +4255,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -4363,7 +4363,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -5509,7 +5509,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -5844,7 +5844,7 @@
 					"description": "If you have changed the default API port don't forget to change it here too."
 				},
 				{
-					"default": "America/New_York",
+					"default": "Pacific/Auckland",
 					"label": "TZ",
 					"name": "TZ"
 				},

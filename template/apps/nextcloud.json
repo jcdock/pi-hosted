@@ -19,7 +19,7 @@
 			"name": "PGID"
 		},
 		{
-			"default": "America/New_York",
+			"default": "Pacific/Auckland",
 			"label": "TZ",
 			"name": "TZ"
 		},

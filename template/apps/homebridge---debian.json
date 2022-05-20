@@ -25,7 +25,7 @@
 			"name": "HOMEBRIDGE_CONFIG_UI_PORT"
 		},
 		{
-			"default": "America/New_York",
+			"default": "Pacific/Auckland",
 			"label": "TZ",
 			"name": "TZ"
 		}

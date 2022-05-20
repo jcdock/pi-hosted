@@ -6,7 +6,7 @@
 	"description": "A simple server for sending and receiving messages",
 	"env": [
 		{
-			"default": "America/New_York",
+			"default": "Pacific/Auckland",
 			"label": "TZ",
 			"name": "TZ"
 		},

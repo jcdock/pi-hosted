@@ -25,7 +25,7 @@
       "description": "If you have changed the default API port don't forget to change it here too."
     },
     {
-      "default": "America/New_York",
+      "default": "Pacific/Auckland",
       "label": "TZ",
       "name": "TZ"
     },
