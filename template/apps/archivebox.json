@@ -46,7 +46,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/archivebox",
+			"bind": "/home/jcdock/containers/archivebox",
 			"container": "/data"
 		}
 	],

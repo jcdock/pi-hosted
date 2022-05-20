@@ -29,7 +29,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Cardigann",
+			"bind": "/home/jcdock/containers/Cardigann",
 			"container": "/config"
 		}
 	],

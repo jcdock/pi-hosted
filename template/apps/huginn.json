@@ -18,7 +18,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/huginn",
+			"bind": "/home/jcdock/containers/huginn",
 			"container": "/var/lib/mysql"
 		}
 	],

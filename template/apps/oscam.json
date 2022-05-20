@@ -30,7 +30,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/OScam",
+			"bind": "/home/jcdock/containers/OScam",
 			"container": "/config"
 		}
 	],

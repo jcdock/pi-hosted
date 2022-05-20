@@ -30,7 +30,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Transmission",
+			"bind": "/home/jcdock/containers/Transmission",
 			"container": "/config"
 		},
 		{

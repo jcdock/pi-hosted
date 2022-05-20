@@ -19,7 +19,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/EmbyStat",
+			"bind": "/home/jcdock/containers/EmbyStat",
 			"container": "/config"
 		}
 	],

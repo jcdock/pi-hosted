@@ -31,11 +31,11 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/paperless/config",
+			"bind": "/home/jcdock/containers/paperless/config",
 			"container": "/config"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/paperless/data",
+			"bind": "/home/jcdock/containers/paperless/data",
 			"container": "/data"
 		}
 	],

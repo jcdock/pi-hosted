@@ -47,11 +47,11 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/UnifFiVideo/Recordings/",
+			"bind": "/home/jcdock/containers/UnifFiVideo/Recordings/",
 			"container": "/recordings"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/UniFiVideo/",
+			"bind": "/home/jcdock/containers/UniFiVideo/",
 			"container": "/config"
 		}
 	],

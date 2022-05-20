@@ -37,7 +37,7 @@
 			"container": "/Thumbs"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/PhotoShow",
+			"bind": "/home/jcdock/containers/PhotoShow",
 			"container": "/config"
 		}
 	],

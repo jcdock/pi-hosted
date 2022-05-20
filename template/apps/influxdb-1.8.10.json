@@ -3,7 +3,7 @@
 		"Other",
 		"Tools"
 	],
-	"description": "InfluxDB is an open source time series database for recording metrics, events, and analytics. You will need to add /portainer/Files/AppData/Config/Influxdb/config/influxdb.conf",
+	"description": "InfluxDB is an open source time series database for recording metrics, events, and analytics. You will need to add /home/jcdock/containers/Influxdb/config/influxdb.conf",
 	"hostname": "rpi-influxdb1810",
 	"image32": "influxdb:1.8.10",
 	"image64": "influxdb:1.8.10",
@@ -19,11 +19,11 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Influxdb/data",
+			"bind": "/home/jcdock/containers/Influxdb/data",
 			"container": "/var/lib/influxdb"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/Influxdb/config",
+			"bind": "/home/jcdock/containers/Influxdb/config",
 			"container": "/var/lib/influxdb"
 		}
 	],

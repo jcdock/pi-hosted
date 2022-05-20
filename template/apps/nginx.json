@@ -31,7 +31,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Nginx",
+			"bind": "/home/jcdock/containers/Nginx",
 			"container": "/config"
 		}
 	],

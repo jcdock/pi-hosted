@@ -18,7 +18,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/libreddit",
+			"bind": "/home/jcdock/containers/libreddit",
 			"container": "/config"
 		}
 	],

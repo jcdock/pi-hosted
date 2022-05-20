@@ -40,7 +40,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/foundryvtt",
+			"bind": "/home/jcdock/containers/foundryvtt",
 			"container": "/data"
 		}
 	],

@@ -29,7 +29,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Daapd",
+			"bind": "/home/jcdock/containers/Daapd",
 			"container": "/config"
 		},
 		{

@@ -35,7 +35,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Bazarr",
+			"bind": "/home/jcdock/containers/Bazarr",
 			"container": "/config"
 		},
 		{

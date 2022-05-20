@@ -30,7 +30,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Lidarr",
+			"bind": "/home/jcdock/containers/Lidarr",
 			"container": "/config"
 		},
 		{

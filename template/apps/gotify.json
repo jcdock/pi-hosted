@@ -36,7 +36,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/gotify",
+			"bind": "/home/jcdock/containers/gotify",
 			"container": "/app/data"
 		}
 	],

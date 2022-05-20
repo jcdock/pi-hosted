@@ -20,7 +20,7 @@
 	"videoID": 11,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Whoogle",
+			"bind": "/home/jcdock/containers/Whoogle",
 			"container": "/config"
 		}
 	],

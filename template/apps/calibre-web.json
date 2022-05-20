@@ -34,7 +34,7 @@
 			"container": "/books"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/Calibre-web",
+			"bind": "/home/jcdock/containers/Calibre-web",
 			"container": "/config"
 		}
 	],

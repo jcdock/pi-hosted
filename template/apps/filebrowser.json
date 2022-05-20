@@ -24,11 +24,11 @@
                         "container": "/srv"
                 },
                 {
-                        "bind": "/portainer/Files/AppData/Config/filebrowser/filebrowser.db",
+                        "bind": "/home/jcdock/containers/filebrowser/filebrowser.db",
                         "container": "/database/filebrowser.db"
                 },
                 {
-                        "bind": "/portainer/Files/AppData/Config/filebrowser/settings.json",
+                        "bind": "/home/jcdock/containers/filebrowser/settings.json",
                         "container": "/config/settings.json"
                 }
 	],

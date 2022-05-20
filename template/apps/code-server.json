@@ -48,7 +48,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Code-Server",
+			"bind": "/home/jcdock/containers/Code-Server",
 			"container": "/config"
 		}
 	],

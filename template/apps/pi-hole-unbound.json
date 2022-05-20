@@ -63,11 +63,11 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/PiHole-Unbound",
+			"bind": "/home/jcdock/containers/PiHole-Unbound",
 			"container": "/etc/pihole"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/PiHole-Unbound/DNS",
+			"bind": "/home/jcdock/containers/PiHole-Unbound/DNS",
 			"container": "/etc/dnsmasq.d"
 		}
 	],

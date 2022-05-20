@@ -29,7 +29,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/PiWigo",
+			"bind": "/home/jcdock/containers/PiWigo",
 			"container": "/config"
 		}
 	],

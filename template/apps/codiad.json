@@ -29,7 +29,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Codiad",
+			"bind": "/home/jcdock/containers/Codiad",
 			"container": "/config"
 		}
 	],

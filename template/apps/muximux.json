@@ -32,7 +32,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Muximux",
+			"bind": "/home/jcdock/containers/Muximux",
 			"container": "/config"
 		}
 	],

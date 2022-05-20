@@ -19,7 +19,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/DeeMix",
+			"bind": "/home/jcdock/containers/DeeMix",
 			"container": "/config"
 		},
 		{

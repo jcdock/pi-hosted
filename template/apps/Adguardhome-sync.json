@@ -45,7 +45,7 @@
 	"type": 1,
 	"volumes": [
 		{
-      			"bind": "/portainer/Files/AppData/Config/adguardhome-sync/config",
+      			"bind": "/home/jcdock/containers/adguardhome-sync/config",
 			"container": "/config"
 		}
 	],

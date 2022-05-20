@@ -44,7 +44,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/homebridge",
+			"bind": "/home/jcdock/containers/homebridge",
 			"container": "/homebridge"
 		}
 	],

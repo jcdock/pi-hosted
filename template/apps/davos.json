@@ -31,7 +31,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Davos",
+			"bind": "/home/jcdock/containers/Davos",
 			"container": "/config"
 		},
 		{

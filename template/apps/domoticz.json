@@ -32,7 +32,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Domoticz",
+			"bind": "/home/jcdock/containers/Domoticz",
 			"container": "/config"
 		}
 	],

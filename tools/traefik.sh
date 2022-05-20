@@ -6,12 +6,12 @@ function error {
 }
 
 echo "Creating directories..."
-sudo mkdir -p /portainer/Files/AppData/Config/traefik || error "Failed to create traefik folder!"
+sudo mkdir -p /home/jcdock/containers/traefik || error "Failed to create traefik folder!"
 echo "Creating a blank traefik config files"
 
-sudo touch /portainer/Files/AppData/Config/traefik/traefik.yml || error "Failed to create traefik route config!"
-sudo touch /portainer/Files/AppData/Config/traefik/config.yml || error "Failed to create traefik config!"
-sudo touch /portainer/Files/AppData/Config/traefik/acme.json || error "Failed to create traefik certificate storage!"
+sudo touch /home/jcdock/containers/traefik/traefik.yml || error "Failed to create traefik route config!"
+sudo touch /home/jcdock/containers/traefik/config.yml || error "Failed to create traefik config!"
+sudo touch /home/jcdock/containers/traefik/acme.json || error "Failed to create traefik certificate storage!"
 
 echo "Setup complete. You can now install the stack using the App Template."
 

@@ -76,7 +76,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/mealie",
+			"bind": "/home/jcdock/containers/mealie",
 			"container": "/app/data"
 		}
 	],

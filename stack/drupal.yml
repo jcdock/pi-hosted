@@ -15,7 +15,7 @@ services:
       - drupal_network
     restart: unless-stopped
     volumes:
-      - /portainer/Files/AppData/Config/drupal/database:/config
+      - /home/jcdock/containers/drupal/database:/config
   phpmyadmin:
     image: phpmyadmin:latest
     environment:
@@ -38,10 +38,10 @@ services:
       - 4080:80
     restart: unless-stopped
     volumes:
-      - /portainer/Files/AppData/Config/drupal/modules:/var/www/html/modules
-      - /portainer/Files/AppData/Config/drupal/profiles:/var/www/html/profiles
-      - /portainer/Files/AppData/Config/drupal/themes:/var/www/html/themes
-      - /portainer/Files/AppData/Config/drupal/sites:/var/www/html/sites
+      - /home/jcdock/containers/drupal/modules:/var/www/html/modules
+      - /home/jcdock/containers/drupal/profiles:/var/www/html/profiles
+      - /home/jcdock/containers/drupal/themes:/var/www/html/themes
+      - /home/jcdock/containers/drupal/sites:/var/www/html/sites
     depends_on:
       - mariadb
 

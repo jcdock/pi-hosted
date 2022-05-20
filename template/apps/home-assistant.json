@@ -14,7 +14,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/HomeAssistant/assets",
+			"bind": "/home/jcdock/containers/HomeAssistant/assets",
 			"container": "/config"
 		}
 	],

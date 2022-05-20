@@ -26,7 +26,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Minecraft-data",
+			"bind": "/home/jcdock/containers/Minecraft-data",
 			"container": "/data"
 		}
 	],

@@ -20,7 +20,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Bitwarden",
+			"bind": "/home/jcdock/containers/Bitwarden",
 			"container": "/data"
 		}
 	],

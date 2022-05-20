@@ -15,7 +15,7 @@ services:
       - gitea-mariadb-network
     restart: unless-stopped
     volumes:
-      - /portainer/Files/AppData/Config/Gitea/Mariadb:/config
+      - /home/jcdock/containers/Gitea/Mariadb:/config
 
   gitea:
     container_name: gitea
@@ -37,7 +37,7 @@ services:
       - 222:22      
     restart: unless-stopped
     volumes:
-      - /portainer/Files/AppData/Config/Gitea/data:/data
+      - /home/jcdock/containers/Gitea/data:/data
       - /etc/timezone:/etc/timezone:ro
       - /etc/localtime:/etc/localtime:ro
     depends_on:

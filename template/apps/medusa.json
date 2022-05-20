@@ -30,7 +30,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Medusa",
+			"bind": "/home/jcdock/containers/Medusa",
 			"container": "/config"
 		},
 		{

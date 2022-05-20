@@ -37,7 +37,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Jelllyfin",
+			"bind": "/home/jcdock/containers/Jelllyfin",
 			"container": "/config"
 		},
 		{

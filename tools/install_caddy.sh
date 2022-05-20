@@ -18,8 +18,8 @@ function check_internet() {
 check_internet
 
 echo "Creating directories..."
-sudo mkdir -p /portainer/Files/AppData/Config/Caddy || error "Failed to create Caddy folder!"
+sudo mkdir -p /home/jcdock/containers/Caddy || error "Failed to create Caddy folder!"
 echo "Downloading caddy config files"
-sudo wget -O /portainer/Files/AppData/Config/Caddy/Caddyfile https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/configs/Caddyfile || error "Failed to download Caddyfile file!"
+sudo wget -O /home/jcdock/containers/Caddy/Caddyfile https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/configs/Caddyfile || error "Failed to download Caddyfile file!"
 echo "Setup complete. You can now install Caddy using the App Template."
 

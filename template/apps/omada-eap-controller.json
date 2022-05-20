@@ -37,7 +37,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Omada",
+			"bind": "/home/jcdock/containers/Omada",
 			"container": "/config"
 		}
 	],

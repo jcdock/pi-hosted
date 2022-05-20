@@ -31,7 +31,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Nzbhydra2",
+			"bind": "/home/jcdock/containers/Nzbhydra2",
 			"container": "/config"
 		},
 		{

@@ -30,7 +30,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/LibreSpeed",
+			"bind": "/home/jcdock/containers/LibreSpeed",
 			"container": "/config"
 		}
 	],

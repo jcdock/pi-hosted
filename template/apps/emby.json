@@ -37,7 +37,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Emby",
+			"bind": "/home/jcdock/containers/Emby",
 			"container": "/config"
 		},
 		{

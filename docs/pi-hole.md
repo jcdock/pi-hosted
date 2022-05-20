@@ -29,8 +29,8 @@ It will map ports:
 
 It will map:
 
-- **Configuration folder**: `/portainer/Files/AppData/Config/PiHole`
-- **DNS Settings**: `/portainer/Files/AppData/Config/PiHole/DNS`
+- **Configuration folder**: `/home/jcdock/containers/PiHole`
+- **DNS Settings**: `/home/jcdock/containers/PiHole/DNS`
 
 Once deployed go to [Post Installation](#post-installation) section.
 
@@ -40,8 +40,8 @@ Once deployed go to [Post Installation](#post-installation) section.
 
 It follows all the same configuration and ports as the [standard installation](#pi-hole-installation) and no further configuration is required. It uses a different mapped folder:
 
-- **Configuration folder**: `/portainer/Files/AppData/Config/PiHole_DoH-DoT`
-- **DNS Settings**: `/portainer/Files/AppData/Config/PiHole_DoH-DoT/DNS`
+- **Configuration folder**: `/home/jcdock/containers/PiHole_DoH-DoT`
+- **DNS Settings**: `/home/jcdock/containers/PiHole_DoH-DoT/DNS`
 
 Once deployed go to [Post Installation](#post-installation) section.
 

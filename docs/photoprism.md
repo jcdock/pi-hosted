@@ -18,8 +18,8 @@ wget -qO- https://git.io/JM5Tr | bash
 
 This script will create the following directories and set it to be owned by user ID `1000` (usually this is the `pi` user).
 
-- `/portainer/Files/AppData/Config/PhotoPrism/storage`
-- `/portainer/Files/AppData/Config/PhotoPrism/database`
+- `/home/jcdock/containers/PhotoPrism/storage`
+- `/home/jcdock/containers/PhotoPrism/database`
 - `/portainer/PhotoPrism`
 
 ## Installation (Basic)

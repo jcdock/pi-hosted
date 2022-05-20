@@ -32,11 +32,11 @@
 	"videoID": 2,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Homer/assets",
+			"bind": "/home/jcdock/containers/Homer/assets",
 			"container": "/www/assets"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/Homer",
+			"bind": "/home/jcdock/containers/Homer",
 			"container": "/www/config.yml"
 		}
 	],

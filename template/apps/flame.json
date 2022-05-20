@@ -25,7 +25,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Flame/data",
+			"bind": "/home/jcdock/containers/Flame/data",
 			"container": "/app/data"
 		},
 		{

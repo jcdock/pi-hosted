@@ -20,7 +20,7 @@
 	"videoID": 3,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Guacamole",
+			"bind": "/home/jcdock/containers/Guacamole",
 			"container": "/config"
 		}
 	],

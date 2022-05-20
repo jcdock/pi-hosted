@@ -23,15 +23,15 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/traefik/traefik.yml",
+			"bind": "/home/jcdock/containers/traefik/traefik.yml",
 			"container": "/traefik.yml"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/traefik/config.yml",
+			"bind": "/home/jcdock/containers/traefik/config.yml",
 			"container": "/config.yml"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/traefik/acme.json",
+			"bind": "/home/jcdock/containers/traefik/acme.json",
 			"container": "/acme.json"
 		},
 		{

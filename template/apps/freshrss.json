@@ -29,7 +29,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/freshrss",
+			"bind": "/home/jcdock/containers/freshrss",
 			"container": "/config"
 		}
 	],

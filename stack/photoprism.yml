@@ -103,7 +103,7 @@ services:
       ## You may mount an *import* folder from which files can be transferred to *originals* (optional):
       # - "~/Import:/photoprism/import"
       ## Cache, session, thumbnail, and sidecar files will be created in the *storage* folder (never remove):
-      - "/portainer/Files/AppData/Config/PhotoPrism/storage:/photoprism/storage"
+      - "/home/jcdock/containers/PhotoPrism/storage:/photoprism/storage"
 
   ## Database Server (recommended)
   ## see https://docs.photoprism.org/getting-started/faq/#should-i-use-sqlite-mariadb-or-mysql
@@ -115,7 +115,7 @@ services:
       - apparmor:unconfined
     command: mysqld --transaction-isolation=READ-COMMITTED --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci --max-connections=512 --innodb-rollback-on-timeout=OFF --innodb-lock-wait-timeout=120
     volumes:
-      - "/portainer/Files/AppData/Config/PhotoPrism/database:/var/lib/mysql" # never remove
+      - "/home/jcdock/containers/PhotoPrism/database:/var/lib/mysql" # never remove
     environment:
       MYSQL_ROOT_PASSWORD: "${MYSQL_ROOT_PASSWORD}"
       MYSQL_DATABASE: photoprism

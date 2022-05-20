@@ -48,7 +48,7 @@
 			"container": "/music"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/Airsonic/Playlists",
+			"bind": "/home/jcdock/containers/Airsonic/Playlists",
 			"container": "/playlists"
 		},
 		{
@@ -56,11 +56,11 @@
 			"container": "/podcasts"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/Airsonic/Media",
+			"bind": "/home/jcdock/containers/Airsonic/Media",
 			"container": "/media"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/Airsonic/config/",
+			"bind": "/home/jcdock/containers/Airsonic/config/",
 			"container": "/config"
 		}
 	],

@@ -30,7 +30,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Couchpotato",
+			"bind": "/home/jcdock/containers/Couchpotato",
 			"container": "/config"
 		},
 		{

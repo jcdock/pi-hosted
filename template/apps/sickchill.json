@@ -30,7 +30,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/SickChill",
+			"bind": "/home/jcdock/containers/SickChill",
 			"container": "/config"
 		},
 		{

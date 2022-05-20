@@ -30,7 +30,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Pydio",
+			"bind": "/home/jcdock/containers/Pydio",
 			"container": "/config"
 		},
 		{

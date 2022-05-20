@@ -62,7 +62,7 @@
 			"container": "/downloads"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/DelugeOpenVPN/config",
+			"bind": "/home/jcdock/containers/DelugeOpenVPN/config",
 			"container": "/config"
 		}
 	],

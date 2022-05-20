@@ -17,7 +17,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/ReactiveResume",
+			"bind": "/home/jcdock/containers/ReactiveResume",
 			"container": "/keepoutoftheway/var/www/html"
 		}
 	],

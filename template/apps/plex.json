@@ -34,7 +34,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Plex",
+			"bind": "/home/jcdock/containers/Plex",
 			"container": "/config"
 		},
 		{

@@ -34,7 +34,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Syncthing",
+			"bind": "/home/jcdock/containers/Syncthing",
 			"container": "/config"
 		},
 		{

@@ -22,7 +22,7 @@
 	"videoID": 12,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Win2000/zdrive",
+			"bind": "/home/jcdock/containers/Win2000/zdrive",
 			"container": "/mnt"
 		}
 	],

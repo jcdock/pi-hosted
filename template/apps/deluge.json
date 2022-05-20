@@ -35,7 +35,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Deluge",
+			"bind": "/home/jcdock/containers/Deluge",
 			"container": "/config"
 		},
 		{

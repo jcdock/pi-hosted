@@ -27,7 +27,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Authelia",
+			"bind": "/home/jcdock/containers/Authelia",
 			"container": "/etc/authelia/"
 		}
 	],

@@ -36,7 +36,7 @@
 	"videoID": 8,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/ncdata",
+			"bind": "/home/jcdock/containers/ncdata",
 			"container": "/data"
 		}
 	],

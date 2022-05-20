@@ -22,7 +22,7 @@ Once done, click in `Deploy the container`.
 
 ## Configuring
 
-Once deployed, you can view and modify all configurations under `/portainer/Files/AppData/Config/searxng/settings.yml`. Visit the [official doc page](https://docs.searxng.org/admin/engines/settings.html) for details on each setting.
+Once deployed, you can view and modify all configurations under `/home/jcdock/containers/searxng/settings.yml`. Visit the [official doc page](https://docs.searxng.org/admin/engines/settings.html) for details on each setting.
 
 The main thing you might want to do is to set:
 
@@ -46,7 +46,7 @@ From there, you can scroll down to `engines` and **enable/disable** anyone you w
 
 ### Google "Suspended: too many requests"
 
-Try enabling `use_mobile_ui: true` in google section of `/portainer/Files/AppData/Config/searxng/settings.yml` ([Reference](https://github.com/searxng/searxng/issues/531))
+Try enabling `use_mobile_ui: true` in google section of `/home/jcdock/containers/searxng/settings.yml` ([Reference](https://github.com/searxng/searxng/issues/531))
 
 ```yaml
  - name: google 

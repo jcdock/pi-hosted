@@ -30,7 +30,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Jackett",
+			"bind": "/home/jcdock/containers/Jackett",
 			"container": "/config"
 		},
 		{

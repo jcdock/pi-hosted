@@ -36,7 +36,7 @@
 			"container": "/data"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/ProjectSend",
+			"bind": "/home/jcdock/containers/ProjectSend",
 			"container": "/config"
 		}
 	],

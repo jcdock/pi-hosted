@@ -37,7 +37,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Unifi",
+			"bind": "/home/jcdock/containers/Unifi",
 			"container": "/config"
 		}
 	],

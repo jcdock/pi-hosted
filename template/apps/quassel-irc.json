@@ -29,7 +29,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Quassel-core",
+			"bind": "/home/jcdock/containers/Quassel-core",
 			"container": "/config"
 		}
 	],

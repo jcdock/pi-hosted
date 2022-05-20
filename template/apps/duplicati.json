@@ -33,7 +33,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Duplicati",
+			"bind": "/home/jcdock/containers/Duplicati",
 			"container": "/config"
 		},
 		{

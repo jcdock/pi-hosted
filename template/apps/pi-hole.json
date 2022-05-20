@@ -24,11 +24,11 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/PiHole",
+			"bind": "/home/jcdock/containers/PiHole",
 			"container": "/etc/pihole"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/PiHole/DNS",
+			"bind": "/home/jcdock/containers/PiHole/DNS",
 			"container": "/etc/dnsmasq.d"
 		}
 	],

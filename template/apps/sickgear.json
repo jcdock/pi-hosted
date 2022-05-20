@@ -30,7 +30,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/SickGear",
+			"bind": "/home/jcdock/containers/SickGear",
 			"container": "/config"
 		},
 		{

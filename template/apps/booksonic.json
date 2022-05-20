@@ -43,7 +43,7 @@
 			"container": "/podcast"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/Booksonic",
+			"bind": "/home/jcdock/containers/Booksonic",
 			"container": "/config"
 		}
 	],

@@ -36,7 +36,7 @@
 	"videoID": 4,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/JDownloader",
+			"bind": "/home/jcdock/containers/JDownloader",
 			"container": "/opt/JDownloader/app/cfg"
 		},
 		{

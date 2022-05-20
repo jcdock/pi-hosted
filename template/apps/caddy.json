@@ -23,15 +23,15 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Caddy/Data",
+			"bind": "/home/jcdock/containers/Caddy/Data",
 			"container": "/data"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/Caddy/Config",
+			"bind": "/home/jcdock/containers/Caddy/Config",
 			"container": "/config"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/Caddy/Caddyfile",
+			"bind": "/home/jcdock/containers/Caddy/Caddyfile",
 			"container": "/etc/caddy/Caddyfile"
 		}
 	],

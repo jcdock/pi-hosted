@@ -29,7 +29,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Headphones",
+			"bind": "/home/jcdock/containers/Headphones",
 			"container": "/config"
 		},
 		{

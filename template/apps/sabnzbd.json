@@ -30,7 +30,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Sabnzbd",
+			"bind": "/home/jcdock/containers/Sabnzbd",
 			"container": "/config"
 		},
 		{

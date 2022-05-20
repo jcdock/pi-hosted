@@ -30,7 +30,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Mstream",
+			"bind": "/home/jcdock/containers/Mstream",
 			"container": "/config"
 		},
 		{

@@ -36,7 +36,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/n8n",
+			"bind": "/home/jcdock/containers/n8n",
 			"container": "/home/node/.n8n"
 		}
 	],

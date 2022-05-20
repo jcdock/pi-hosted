@@ -29,7 +29,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Smokeping",
+			"bind": "/home/jcdock/containers/Smokeping",
 			"container": "/config"
 		},
 		{

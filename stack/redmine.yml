@@ -15,7 +15,7 @@ services:
       - redmine_network
     restart: unless-stopped
     volumes:
-      - /portainer/Files/AppData/Config/redmine/database:/config
+      - /home/jcdock/containers/redmine/database:/config
   phpmyadmin:
     image: phpmyadmin:latest
     environment:
@@ -45,7 +45,7 @@ services:
       - 4180:80
     restart: unless-stopped
     volumes:
-      - /portainer/Files/AppData/Config/redmine/files:/usr/src/redmine/files
+      - /home/jcdock/containers/redmine/files:/usr/src/redmine/files
     depends_on:
       - mariadb
 

@@ -31,11 +31,11 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/netdata/netdataconfig",
+			"bind": "/home/jcdock/containers/netdata/netdataconfig",
 			"container": "/etc/netdata"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/netdata/netdatalib",
+			"bind": "/home/jcdock/containers/netdata/netdatalib",
 			"container": "/var/lib/netdata"
 		},
 		{

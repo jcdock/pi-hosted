@@ -29,7 +29,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Nzbget",
+			"bind": "/home/jcdock/containers/Nzbget",
 			"container": "/config"
 		},
 		{

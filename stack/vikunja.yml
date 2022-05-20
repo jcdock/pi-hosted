@@ -15,7 +15,7 @@ services:
       - network
     restart: unless-stopped
     volumes:
-      - /portainer/Files/AppData/Config/Vikunja/Mariadb:/config
+      - /home/jcdock/containers/Vikunja/Mariadb:/config
 
   api:
     container_name: api
@@ -32,7 +32,7 @@ services:
       - network
     restart: unless-stopped
     volumes:
-      - /portainer/Files/AppData/Config/Vikunja/files:/app/vikunja/files
+      - /home/jcdock/containers/Vikunja/files:/app/vikunja/files
     depends_on:
       - mariadb
 
@@ -53,7 +53,7 @@ services:
     ports:
       - 3456:80
     volumes:
-      - /portainer/Files/AppData/Config/Vikunja/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - /home/jcdock/containers/Vikunja/nginx.conf:/etc/nginx/conf.d/default.conf:ro
     networks:
       - network
     restart: unless-stopped

@@ -33,7 +33,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Resilio-Sync",
+			"bind": "/home/jcdock/containers/Resilio-Sync",
 			"container": "/config"
 		},
 		{

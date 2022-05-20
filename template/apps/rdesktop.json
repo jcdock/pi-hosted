@@ -34,7 +34,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/RDesktop/config",
+			"bind": "/home/jcdock/containers/RDesktop/config",
 			"container": "/config"
 		}
 	],

@@ -9,7 +9,7 @@ services:
     ports:
       - '8086:8086'
     volumes:
-      - /portainer/Files/AppData/Config/unpoller/influx:/var/lib/influxdb
+      - /home/jcdock/containers/unpoller/influx:/var/lib/influxdb
     environment:
       - INFLUXDB_DB=unifi
       - INFLUXDB_ADMIN_USER=unifi
@@ -24,7 +24,7 @@ services:
     depends_on:
       - influxdb
     volumes:
-      - /portainer/Files/AppData/Config/unpoller/config:/etc/unifi-poller
+      - /home/jcdock/containers/unpoller/config:/etc/unifi-poller
       
 networks:
   UnPollerBridge:

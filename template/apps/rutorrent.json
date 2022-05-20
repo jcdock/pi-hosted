@@ -79,7 +79,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/ruTorrent/config",
+			"bind": "/home/jcdock/containers/ruTorrent/config",
 			"container": "/config"
 		},
 		{
@@ -87,7 +87,7 @@
 			"container": "/downloads"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/ruTorrent/passwd",
+			"bind": "/home/jcdock/containers/ruTorrent/passwd",
 			"container": "/passwd"
 		}
 	],

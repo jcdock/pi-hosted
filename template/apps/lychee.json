@@ -57,7 +57,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Lychee",
+			"bind": "/home/jcdock/containers/Lychee",
 			"container": "/config"
 		},
 		{

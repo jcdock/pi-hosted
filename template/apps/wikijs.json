@@ -18,11 +18,11 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Wikijs",
+			"bind": "/home/jcdock/containers/Wikijs",
 			"container": "/config"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/Wikijs/data",
+			"bind": "/home/jcdock/containers/Wikijs/data",
 			"container": "/data"
 		}
 	],

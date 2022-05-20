@@ -32,7 +32,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Ombi",
+			"bind": "/home/jcdock/containers/Ombi",
 			"container": "/config"
 		}
 	],

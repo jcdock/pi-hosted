@@ -89,11 +89,11 @@ Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.110.1
 Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.110.133|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 163 [text/plain]
-Saving to: ‘/portainer/Files/AppData/Config/prometheus/config/prometheus.yml’
+Saving to: ‘/home/jcdock/containers/prometheus/config/prometheus.yml’
 
-/portainer/Files/AppData/Config/prometheus/config/promethe 100%[=======================================================================================================================================>]     163  --.-KB/s    in 0s
+/home/jcdock/containers/prometheus/config/promethe 100%[=======================================================================================================================================>]     163  --.-KB/s    in 0s
 
-2021-10-17 00:56:28 (971 KB/s) - ‘/portainer/Files/AppData/Config/prometheus/config/prometheus.yml’ saved [163/163]
+2021-10-17 00:56:28 (971 KB/s) - ‘/home/jcdock/containers/prometheus/config/prometheus.yml’ saved [163/163]
 
 setting permissions
 Done You are ready to goto next step in the install document

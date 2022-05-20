@@ -31,7 +31,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Gitea",
+			"bind": "/home/jcdock/containers/Gitea",
 			"container": "/data"
 		},
 		{

@@ -14,7 +14,7 @@ services:
       - lychee-mariadb_network
     restart: unless-stopped
     volumes:
-      - /portainer/Files/AppData/Config/Lychee/Mariadb:/config
+      - /home/jcdock/containers/Lychee/Mariadb:/config
 
   lychee:
     container_name: lychee
@@ -35,7 +35,7 @@ services:
       - 84:80
     restart: unless-stopped
     volumes:
-      - /portainer/Files/AppData/Config/Lychee/config:/config
+      - /home/jcdock/containers/Lychee/config:/config
       - /portainer/Pictures:/pictures
     depends_on:
       - mariadb

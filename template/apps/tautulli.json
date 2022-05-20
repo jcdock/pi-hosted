@@ -34,7 +34,7 @@
 			"container": "/logs"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/Tautulli",
+			"bind": "/home/jcdock/containers/Tautulli",
 			"container": "/config"
 		}
 	],

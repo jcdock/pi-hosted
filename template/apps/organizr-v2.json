@@ -30,7 +30,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Organizr",
+			"bind": "/home/jcdock/containers/Organizr",
 			"container": "/config"
 		}
 	],

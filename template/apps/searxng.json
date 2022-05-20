@@ -31,7 +31,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/searxng",
+			"bind": "/home/jcdock/containers/searxng",
 			"container": "/etc/searxng"
 		}
 	],

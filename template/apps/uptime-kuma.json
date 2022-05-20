@@ -19,7 +19,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/uptime-kuma",
+			"bind": "/home/jcdock/containers/uptime-kuma",
 			"container": "/app/data"
 		}
 	],
