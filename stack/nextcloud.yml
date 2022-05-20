@@ -1,5 +1,5 @@
 ---
-version: "2"
+version: "3"
 services:
   nextcloud:
     image: linuxserver/nextcloud:latest
@@ -29,3 +29,7 @@ services:
     volumes:
       - /home/jcdock/containers/Nextcloud/DB:/config
     restart: unless-stopped
+networks:
+  default:
+    external:
+      name: web
